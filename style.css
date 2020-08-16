@@ -229,7 +229,7 @@ ol{
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width:768px) {  
+@media (max-width:768px) {  
   .sm {color:red;font-weight:bold;}
 
   h1{
@@ -283,7 +283,7 @@ p{
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) and (max-width:992px) {  
+@media (max-width:992px) {  
  .md {color:red;font-weight:bold;}
 
  h1{
@@ -319,7 +319,7 @@ p{
 }
  
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width:1200px) { 
+@media (max-width:1200px) { 
  .lg {color:red;font-weight:bold;}
 
  .container .navbar .navbar-brand{
