@@ -239,6 +239,11 @@ ol{
 	margin-left: 3px;
 }
 
+.row-cols-md-2{
+	padding: 0;
+	width: 100%;
+}
+
 .row .col .card{
 	width: 250px;
 	height: auto;
