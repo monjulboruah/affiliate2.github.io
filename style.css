@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+body{
+	background-color: #d4d7de;
+	font-family: 'poppins', verdana;
+	margin: 0;
+	padding-top: 65px;
+}
+
+.navbar-brand{
+	margin-left: 20px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.nav-item{
+	margin-left: 30px;
+	font-size: 20px;
+}
+
+.container .navbar .navbar-brand{
+	font-weight: bold;
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+	font-weight: bold;
+}
+
+.container .justify-content-md-center{
+	margin-top: 20px;
+}
+
+.imgage{
+	height: 200px;
+	width: auto;
+}
+
+.underline{
+	width: 100%; 
+	height:2px; 
+	background-color: orangered;
+}
+
+.btn-secondary{
+	font-size: 18px;
+}
+
+.btn-primary{
+	font-size: 18px;
+}
+
+
+h1{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: bold;	
+}
+
+h5{
+	font-size: 16px;
+}
+
+.cardbody{
+	padding: 0 !important;
+}
+
+p{
+	font-size: 18px;
+	font-weight: 400px; 
+}
+
+ul{
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: 400px; 
+}
+
+ol{
+	font-size: 18px;
+	font-weight: 400px;
+}
+.rule{
+	height: 3px;
+	color: yellow;
+}
+
+
+.jumbotron{
+	padding: 1rem;
+	border-radius: 0;
+	font-size: 18px;
+	color: red;
+}
+
+.volFor{
+	border: 1px solid red;
+}
+
+.liststyle{
+	font-size: 18px;
+	font-weight: 400px; 	
+}
+
+.padding{
+	padding-bottom: 2rem;
+}
+
+footer{
+	padding-top: 2rem;
+}
+
+.social a{
+	font-size: 2em;
+}
+
+.fa-facebook{
+	color: #3b5998;
+}
+
+.fa-twitter{
+	color: #00aced;
+}
+
+.fa-google-plus-g{
+	color: #dd4b39;
+}
+
+.fa-linkedin-in{
+	color: #3b5998;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-linkedin-in:hover{
+	color: #d5d5d5;
+}
+
+footer a{
+	text-decoration: none;
+}
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+/*---Media Queries --*/
+
+@media (max-width: 576px) {  
+  .xs {color:red;font-weight:bold;}
+
+  h1{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 15px;
+	font-weight: bold;	
+}
+
+h5{
+	font-size: 15px;
+}
+
+p{
+	font-size: 14px;
+	font-weight: 400px; 
+}
+
+.jumbotron{
+	font-size: 14px;
+	font-weight: 400px;
+}
+
+ul{
+	list-style-type: none;
+	font-size: 14px;
+	font-weight: 350px; 
+}
+
+ol{
+	font-size: 14px;
+	font-weight: 350px;
+}
+
+.liststyle{
+	font-size: 14px;
+	font-weight: 350px; 	
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+	font-size: 18px;
+}
+
+.container .navbar .navbar-brand{
+	font-size: 22px;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:768px) {  
+  .sm {color:red;font-weight:bold;}
+
+  h1{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 18px;
+	font-weight: bold;	
+}
+
+p{
+	font-size: 18px;
+	font-weight: 400px; 
+}
+
+.jumbotron{
+	font-size: 18px;
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+	font-size: 18px;
+}
+
+.container .navbar .navbar-brand{
+	font-size: 24px;
+}
+
+.row{
+	margin-left: 3px;
+}
+
+.row .col .card{
+	max-width: 200px;
+	height: auto;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.row .col .card .image{
+	max-width: 200px;
+	height: auto;
+}
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width:992px) {  
+ .md {color:red;font-weight:bold;}
+
+ h1{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: bold;	
+}
+
+p{
+	font-size: 18px;
+	font-weight: 400px; 
+}
+.collapse .navbar-nav .nav-item .nav-link{
+	font-size: 18px;
+}
+
+.container .navbar .navbar-brand{
+	font-size: 26px;
+}
+
+.jumbotron{
+	font-size: 18px;
+}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) { 
+ .lg {color:red;font-weight:bold;}
+
+ .container .navbar .navbar-brand{
+	font-size: 26px;
+}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .xl {color:red;font-weight:bold;}
+}
+
+
+@media (max-width: 400px) {
+	h1{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 15px;
+	font-weight: bold;	
+}
+
+h5{
+	font-size: 15px;
+}
+
+p{
+	font-size: 14px;
+	font-weight: 400px; 
+}
+
+ul{
+	list-style-type: none;
+	font-size: 14px;
+	font-weight: 350px; 
+}
+
+ol{
+	font-size: 14px;
+	font-weight: 350px;
+}
+
+.liststyle{
+	font-size: 14px;
+	font-weight: 350px; 	
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+	font-size: 18px;
+}
+
+.container .navbar .navbar-brand{
+	font-size: 22px;
+}
+
+
+.row{
+	margin-left: 3px;
+}
+
+.row .col .card{
+	max-width: 150px;
+	height: auto;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.row .col .card .image{
+	max-width: 150px;
+	height: auto;
+}
+}
