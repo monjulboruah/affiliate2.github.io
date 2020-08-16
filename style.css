@@ -4,10 +4,21 @@
 
 
 body{
+	padding: 0;
+	align-content: center;
 	background-color: #d4d7de;
 	font-family: 'poppins', verdana;
 	margin: 0;
 	padding-top: 65px;
+}
+
+.container{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 50px;
+	margin-right: 0;
+	padding: 2px;
+	align-content: center;
 }
 
 .navbar-brand{
