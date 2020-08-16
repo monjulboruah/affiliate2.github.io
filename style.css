@@ -12,15 +12,6 @@ body{
 	padding-top: 65px;
 }
 
-.container{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 50px;
-	margin-right: 0;
-	padding: 2px;
-	align-content: center;
-}
-
 .navbar-brand{
 	margin-left: 20px;
 	font-size: 28px;
@@ -186,6 +177,15 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 /*---Media Queries --*/
 @media (max-width: 400px) {
+
+	.container{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 0;
+	padding: 2px;
+	align-content: center;
+}
 	h1{
 	font-size: 16px;
 	font-weight: bold;
@@ -254,7 +254,14 @@ ol{
 }
 
 @media (max-width: 576px) {  
-  .xs {color:red;font-weight:bold;}
+  .container{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 0;
+	padding: 2px;
+	align-content: center;
+}
 
   h1{
 	font-size: 16px;
@@ -325,7 +332,14 @@ ol{
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width:768px) {  
-  .sm {color:red;font-weight:bold;}
+  .container{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 30px;
+	margin-right: 0;
+	padding: 2px;
+	align-content: center;
+}
 
   h1{
 	font-size: 22px;
@@ -379,7 +393,14 @@ p{
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) and (max-width:992px) {  
- .md {color:red;font-weight:bold;}
+ .container{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 50px;
+	margin-right: 0;
+	padding: 2px;
+	align-content: center;
+}
 
  h1{
 	font-size: 24px;
@@ -428,7 +449,14 @@ p{
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width:1200px) { 
- .lg {color:red;font-weight:bold;}
+ .container{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 100px;
+	margin-right: 0;
+	padding: 2px;
+	align-content: center;
+}
 
  .container .navbar .navbar-brand{
 	font-size: 26px;
@@ -437,7 +465,14 @@ p{
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-    .xl {color:red;font-weight:bold;}
+    .container{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 120px;
+	margin-right: 0;
+	padding: 2px;
+	align-content: center;
+}
 }
 
 
