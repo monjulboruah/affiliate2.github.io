@@ -61,11 +61,6 @@ body{
 	margin-top: 20px;
 }
 
-.imgage{
-	height: 200px;
-	width: auto;
-}
-
 .underline{
 	width: 100%; 
 	height:2px; 
@@ -100,9 +95,6 @@ h5{
 	font-size: 16px;
 }
 
-.cardbody{
-	padding: 0 !important;
-}
 
 p{
 	font-size: 18px;
@@ -130,10 +122,6 @@ ol{
 	border-radius: 0;
 	font-size: 18px;
 	color: red;
-}
-
-.volFor{
-	border: 1px solid red;
 }
 
 .liststyle{
@@ -207,7 +195,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 	.container{
 	margin-top: 5px;
 	margin-bottom: 5px;
-	margin-left: 10px;
+	margin-left: 1px;
 	margin-right: 0;
 	padding: 0;
 	align-content: center;
@@ -286,11 +274,11 @@ ol{
 
 @media (max-width: 576px) {  
   .container{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 20px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 0;
 	margin-right: 0;
-	padding: 2px;
+	padding: 0;
 	align-content: center;
 }
 
@@ -347,18 +335,6 @@ ol{
 	font-size: 22px;
 }
 
-.row .col .card{
-	max-width: 250px;
-	height: auto;
-	float: left;
-	margin-left: 2px;
-	margin-top: 2px;
-}
-
-.row .col .card .image{
-	max-width: 250px;
-	height: auto;
-}
 }
 
 /* Small devices (landscape phones, 576px and up) */
