@@ -240,7 +240,7 @@ ol{
 }
 
 .row .col .card{
-	max-width: 200px;
+	width: 250px;
 	height: auto;
 	float: left;
 	margin-left: 2px;
@@ -248,7 +248,7 @@ ol{
 }
 
 .row .col .card .image{
-	max-width: 200px;
+	width: 250px;
 	height: auto;
 }
 }
