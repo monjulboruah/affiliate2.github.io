@@ -151,6 +151,11 @@ footer{
 footer a{
 	text-decoration: none;
 }
+
+
+
+
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
@@ -169,6 +174,73 @@ Extra (xl) large devices (large desktops, 1200px and up)
 */
 
 /*---Media Queries --*/
+@media (max-width: 400px) {
+	h1{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 15px;
+	font-weight: bold;	
+}
+
+h5{
+	font-size: 15px;
+}
+
+p{
+	font-size: 14px;
+	font-weight: 400px; 
+}
+
+ul{
+	list-style-type: none;
+	font-size: 14px;
+	font-weight: 350px; 
+}
+
+ol{
+	font-size: 14px;
+	font-weight: 350px;
+}
+
+.liststyle{
+	font-size: 14px;
+	font-weight: 350px; 	
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+	font-size: 18px;
+}
+
+.container .navbar .navbar-brand{
+	font-size: 22px;
+}
+
+
+.row{
+	margin-left: 3px;
+}
+
+.row .col .card{
+	max-width: 200px;
+	height: auto;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.row .col .card .image{
+	max-width: 200px;
+	height: auto;
+}
+}
 
 @media (max-width: 576px) {  
   .xs {color:red;font-weight:bold;}
@@ -226,6 +298,18 @@ ol{
 	font-size: 22px;
 }
 
+.row .col .card{
+	max-width: 250px;
+	height: auto;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.row .col .card .image{
+	max-width: 250px;
+	height: auto;
+}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -333,70 +417,3 @@ p{
 }
 
 
-@media (max-width: 400px) {
-	h1{
-	font-size: 16px;
-	font-weight: bold;
-}
-
-h2{
-	font-size: 15px;
-	font-weight: bold;
-}
-
-h3{
-	font-size: 15px;
-	font-weight: bold;	
-}
-
-h5{
-	font-size: 15px;
-}
-
-p{
-	font-size: 14px;
-	font-weight: 400px; 
-}
-
-ul{
-	list-style-type: none;
-	font-size: 14px;
-	font-weight: 350px; 
-}
-
-ol{
-	font-size: 14px;
-	font-weight: 350px;
-}
-
-.liststyle{
-	font-size: 14px;
-	font-weight: 350px; 	
-}
-
-.collapse .navbar-nav .nav-item .nav-link{
-	font-size: 18px;
-}
-
-.container .navbar .navbar-brand{
-	font-size: 22px;
-}
-
-
-.row{
-	margin-left: 3px;
-}
-
-.row .col .card{
-	max-width: 150px;
-	height: auto;
-	float: left;
-	margin-left: 2px;
-	margin-top: 2px;
-}
-
-.row .col .card .image{
-	max-width: 150px;
-	height: auto;
-}
-}
