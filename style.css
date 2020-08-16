@@ -353,7 +353,7 @@ p{
 }
 
 .row .col .card{
-	max-width: 200px;
+	max-width: 250px;
 	height: auto;
 	float: left;
 	margin-left: 2px;
@@ -361,7 +361,7 @@ p{
 }
 
 .row .col .card .image{
-	max-width: 200px;
+	max-width: 250px;
 	height: auto;
 }
 }
@@ -399,6 +399,19 @@ p{
 
 .jumbotron{
 	font-size: 18px;
+}
+
+.row .col .card{
+	max-width: 300px;
+	height: auto;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.row .col .card .image{
+	max-width: 300px;
+	height: auto;
 }
 }
  
