@@ -183,7 +183,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 	margin-bottom: 5px;
 	margin-left: 10px;
 	margin-right: 0;
-	padding: 2px;
+	padding: 0;
 	align-content: center;
 }
 	h1{
@@ -245,7 +245,7 @@ ol{
 }
 
 .row .col .card{
-	width: 250px;
+	width: 100%;
 	height: auto;
 	float: left;
 	margin-left: 2px;
@@ -253,7 +253,7 @@ ol{
 }
 
 .row .col .card .image{
-	width: 250px;
+	width: 100%;
 	height: auto;
 }
 }
