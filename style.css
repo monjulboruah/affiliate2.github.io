@@ -49,15 +49,15 @@ body{
 	font-size: 20px;
 }
 
-.container .navbar .navbar-brand{
+.container-fluid .navbar .navbar-brand{
 	font-weight: bold;
 }
 
-.collapse .navbar-nav .nav-item .nav-link{
+.collapse-fluid .navbar-nav .nav-item .nav-link{
 	font-weight: bold;
 }
 
-.container .justify-content-md-center{
+.container-fluid .justify-content-md-center{
 	margin-top: 20px;
 }
 
@@ -243,7 +243,7 @@ ol{
 	font-size: 24px;
 }
 
-.container .navbar .navbar-brand{
+.container-fluid .navbar .navbar-brand{
 	font-size: 26px;
 }
 
@@ -349,7 +349,7 @@ ol{
 	font-size: 24px;
 }
 
-.container .navbar .navbar-brand{
+.container-fluid .navbar .navbar-brand{
 	font-size: 26px;
 }
 
@@ -390,7 +390,7 @@ ol{
 	font-size: 18px;
 }
 
-.container .navbar .navbar-brand{
+.container-fluid .navbar .navbar-brand{
 	font-size: 22px;
 }
 
@@ -448,7 +448,7 @@ ol{
 	font-size: 24px;
 }
 
-.container .navbar .navbar-brand{
+.container-fluid .navbar .navbar-brand{
 	font-size: 26px;
 }
 
@@ -549,7 +549,7 @@ ol{
 	font-size: 24px;
 }
 
-.container .navbar .navbar-brand{
+.container-fluid .navbar .navbar-brand{
 	font-size: 26px;
 }
 
@@ -600,7 +600,7 @@ ol{
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width:1200px) { 
- .container{
+ .container-fluid{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: 100px;
@@ -609,7 +609,7 @@ ol{
 	align-content: center;
 }
 
- .container .navbar .navbar-brand{
+ .container-fluid .navbar .navbar-brand{
 	font-size: 26px;
 }
 }
@@ -621,5 +621,4 @@ ol{
 	margin-bottom: 5px;
 }
 }
-
 
