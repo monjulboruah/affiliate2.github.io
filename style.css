@@ -198,52 +198,53 @@ Extra (xl) large devices (large desktops, 1200px and up)
 	margin-right: 0;
 	padding: 0;
 }
-	h1{
-	font-size: 16px;
+
+h1{
+	font-size: 24px;
 	font-weight: bold;
 }
 
 h2{
-	font-size: 15px;
+	font-size: 22px;
 	font-weight: bold;
 }
 
 h3{
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: bold;	
 }
 
 h5{
-	font-size: 15px;
+	font-size: 18px;
 }
 
 p{
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 400px; 
 }
 
 ul{
 	list-style-type: none;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 350px; 
 }
 
 ol{
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 350px;
 }
 
 .liststyle{
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 350px; 	
 }
 
 .collapse .navbar-nav .nav-item .nav-link{
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .container .navbar .navbar-brand{
-	font-size: 22px;
+	font-size: 26px;
 }
 
 
@@ -305,48 +306,51 @@ ol{
 }
 
   h1{
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
 h2{
-	font-size: 15px;
+	font-size: 22px;
 	font-weight: bold;
 }
 
 h3{
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: bold;	
 }
 
 h5{
-	font-size: 15px;
+	font-size: 18px;
 }
 
 p{
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 400px; 
-}
-
-.jumbotron{
-	font-size: 14px;
-	font-weight: 400px;
 }
 
 ul{
 	list-style-type: none;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 350px; 
 }
 
 ol{
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 350px;
 }
 
 .liststyle{
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 350px; 	
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+	font-size: 24px;
+}
+
+.container .navbar .navbar-brand{
+	font-size: 26px;
 }
 
 .row{
@@ -401,18 +405,22 @@ ol{
 }
 
   h1{
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
 h2{
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 }
 
 h3{
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;	
+}
+
+h5{
+	font-size: 18px;
 }
 
 p{
@@ -420,16 +428,28 @@ p{
 	font-weight: 400px; 
 }
 
-.jumbotron{
+ul{
+	list-style-type: none;
 	font-size: 18px;
+	font-weight: 350px; 
+}
+
+ol{
+	font-size: 18px;
+	font-weight: 350px;
+}
+
+.liststyle{
+	font-size: 18px;
+	font-weight: 350px; 	
 }
 
 .collapse .navbar-nav .nav-item .nav-link{
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .container .navbar .navbar-brand{
-	font-size: 24px;
+	font-size: 26px;
 }
 
 .row{
@@ -500,20 +520,37 @@ h3{
 	font-weight: bold;	
 }
 
+h5{
+	font-size: 18px;
+}
+
 p{
 	font-size: 18px;
 	font-weight: 400px; 
 }
-.collapse .navbar-nav .nav-item .nav-link{
+
+ul{
+	list-style-type: none;
 	font-size: 18px;
+	font-weight: 350px; 
+}
+
+ol{
+	font-size: 18px;
+	font-weight: 350px;
+}
+
+.liststyle{
+	font-size: 18px;
+	font-weight: 350px; 	
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+	font-size: 24px;
 }
 
 .container .navbar .navbar-brand{
 	font-size: 26px;
-}
-
-.jumbotron{
-	font-size: 18px;
 }
 
 .row{
