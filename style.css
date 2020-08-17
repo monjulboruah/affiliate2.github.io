@@ -12,41 +12,52 @@ body{
 	padding-top: 65px;
 }
 
+.container-fluid{
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+}
 .row{
 	margin: 0;
 }
 
 .row-cols-md-2{
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 	padding: 0;
 	width: 100%;
 }
 
 .row-cols-2{
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 	padding: 0;
 	width: 100%;
 	} 
 
 .row-cols-xs-2{
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 	padding: 0;
 	width: 100%;
 	} 
 
 .row-cols-sm-2{
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 	padding: 0;
 	width: 100%;
 	} 
 .row-cols-md-2{
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 	padding: 0;
 	width: 100%;
 }
 
 .row .col .card{
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 	width: 100%;
 	height: auto;
 }
@@ -99,6 +110,7 @@ h1{
 }
 
 h2{
+	margin-left: 3px;
 	font-size: 22px;
 	font-weight: bold;
 }
