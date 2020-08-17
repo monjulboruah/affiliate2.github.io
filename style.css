@@ -200,42 +200,37 @@ Extra (xl) large devices (large desktops, 1200px and up)
 }
 
 h1{
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
 h2{
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: bold;
 }
 
-h3{
-	font-size: 20px;
-	font-weight: bold;	
-}
-
 h5{
-	font-size: 18px;
+	font-size: 16px;
 }
 
 p{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400px; 
 }
 
 ul{
 	list-style-type: none;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 350px; 
 }
 
 ol{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 350px;
 }
 
 .liststyle{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 350px; 	
 }
 
@@ -306,26 +301,21 @@ ol{
 }
 
   h1{
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
 h2{
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: bold;
 }
 
-h3{
-	font-size: 20px;
-	font-weight: bold;	
-}
-
 h5{
-	font-size: 18px;
+	font-size: 16px;
 }
 
 p{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400px; 
 }
 
@@ -405,42 +395,37 @@ ol{
 }
 
   h1{
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
 h2{
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: bold;
 }
 
-h3{
-	font-size: 20px;
-	font-weight: bold;	
-}
-
 h5{
-	font-size: 18px;
+	font-size: 16px;
 }
 
 p{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400px; 
 }
 
 ul{
 	list-style-type: none;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 350px; 
 }
 
 ol{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 350px;
 }
 
 .liststyle{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 350px; 	
 }
 
