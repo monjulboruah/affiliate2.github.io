@@ -13,30 +13,47 @@ body{
 }
 
 .row{
+	margin: 0;
+}
+
+.row-cols-md-2{
+	margin: 0;
 	padding: 0;
+	width: 100%;
+}
+
+.row-cols-2{
+	margin: 0;
+	padding: 0;
+	width: 100%;
 	} 
 
-.row-cols-1{
+.row-cols-xs-2{
+	margin: 0;
 	padding: 0;
-	} 
-
-.row-col-xs-2{
-	padding: 0;
+	width: 100%;
 	} 
 
 .row-cols-sm-2{
+	margin: 0;
 	padding: 0;
+	width: 100%;
 	} 
-
 .row-cols-md-2{
+	margin: 0;
 	padding: 0;
-	} 
-.row-cols-lg-4{
-	padding: 0;
-	} 
+	width: 100%;
+}
 
-.row-cols-xl-5{
-	padding: 0;
+.row .col .card{
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+
+.row .col .card .image{
+	width: 100%;
+	height: auto;
 }
 .navbar-brand{
 	margin-left: 20px;
@@ -190,420 +207,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
 */
 
 /*---Media Queries --*/
-@media (max-width: 400px) {
-
-	.container-fluid{
-	margin-top: 5px;
-	margin-left: 0;
-	margin-right: 0;
-	padding: 0;
-}
-
-h1{
-	font-size: 20px;
-	font-weight: bold;
-}
-
-h2{
-	font-size: 18px;
-	font-weight: bold;
-}
-
-h5{
-	font-size: 16px;
-}
-
-p{
-	font-size: 16px;
-	font-weight: 400px; 
-}
-
-ul{
-	list-style-type: none;
-	font-size: 16px;
-	font-weight: 350px; 
-}
-
-ol{
-	font-size: 16px;
-	font-weight: 350px;
-}
-
-.liststyle{
-	font-size: 16px;
-	font-weight: 350px; 	
-}
-
-.collapse .navbar-nav .nav-item .nav-link{
-	font-size: 24px;
-}
-
-.container-fluid .navbar .navbar-brand{
-	font-size: 26px;
-}
-
-
-.row{
-	margin-left: 0;
-}
-
-.row-cols-md-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.row-cols-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-
-.row-col-xs-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-
-.row-cols-sm-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-.row-cols-md-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.row .col .card{
-	width: 100%;
-	height: auto;
-	margin-left: 0;
-	margin-top: 2;
-}
-
-.row .col .card .image{
-	width: 100%;
-	height: auto;
-}
-}
-
-
-
-@media (max-width: 576px) {  
-  .container-fluid{
-	margin-top: 3px;
-	margin-bottom: 0;
-	margin-left: 0;
-	margin-right: 0;
-	padding: 0;
-}
-
-  h1{
-	font-size: 20px;
-	font-weight: bold;
-}
-
-h2{
-	font-size: 18px;
-	font-weight: bold;
-}
-
-h5{
-	font-size: 16px;
-}
-
-p{
-	font-size: 16px;
-	font-weight: 400px; 
-}
-
-ul{
-	list-style-type: none;
-	font-size: 18px;
-	font-weight: 350px; 
-}
-
-ol{
-	font-size: 18px;
-	font-weight: 350px;
-}
-
-.liststyle{
-	font-size: 18px;
-	font-weight: 350px; 	
-}
-
-.collapse .navbar-nav .nav-item .nav-link{
-	font-size: 24px;
-}
-
-.container-fluid .navbar .navbar-brand{
-	font-size: 26px;
-}
-
-.row{
-	margin-left: 0;
-}
-
-.row-cols-md-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.row-cols-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-
-.row-col-xs-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-
-.row-cols-sm-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-.row-cols-md-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.collapse .navbar-nav .nav-item .nav-link{
-	font-size: 18px;
-}
-
-.container-fluid .navbar .navbar-brand{
-	font-size: 22px;
-}
-
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width:768px) {  
-  .container-fluid{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-right: 0;
-}
-
-  h1{
-	font-size: 20px;
-	font-weight: bold;
-}
-
-h2{
-	font-size: 18px;
-	font-weight: bold;
-}
-
-h5{
-	font-size: 16px;
-}
-
-p{
-	font-size: 16px;
-	font-weight: 400px; 
-}
-
-ul{
-	list-style-type: none;
-	font-size: 16px;
-	font-weight: 350px; 
-}
-
-ol{
-	font-size: 16px;
-	font-weight: 350px;
-}
-
-.liststyle{
-	font-size: 16px;
-	font-weight: 350px; 	
-}
-
-.collapse .navbar-nav .nav-item .nav-link{
-	font-size: 24px;
-}
-
-.container-fluid .navbar .navbar-brand{
-	font-size: 26px;
-}
-
-.row{
-	margin: 0;
-}
-
-.row-cols-md-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.row-cols-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-
-.row-col-xs-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-
-.row-cols-sm-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-.row-cols-md-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.row .col .card{
-	margin: 0;
-	width: 100%;
-	height: auto;
-}
-
-.row .col .card .image{
-	width: 100%;
-	height: auto;
-}
-}
- 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) and (max-width:992px) { 
-	.container-fluid{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-right: 0;
-}
-
- h1{
-	font-size: 24px;
-	font-weight: bold;
-}
-
-h2{
-	font-size: 22px;
-	font-weight: bold;
-}
-
-h3{
-	font-size: 20px;
-	font-weight: bold;	
-}
-
-h5{
-	font-size: 18px;
-}
-
-p{
-	font-size: 18px;
-	font-weight: 400px; 
-}
-
-ul{
-	list-style-type: none;
-	font-size: 18px;
-	font-weight: 350px; 
-}
-
-ol{
-	font-size: 18px;
-	font-weight: 350px;
-}
-
-.liststyle{
-	font-size: 18px;
-	font-weight: 350px; 	
-}
-
-.collapse .navbar-nav .nav-item .nav-link{
-	font-size: 24px;
-}
-
-.container-fluid .navbar .navbar-brand{
-	font-size: 26px;
-}
-
-.row{
-	margin: 0;
-}
-
-.row-cols-md-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.row-cols-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-
-.row-col-xs-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-
-.row-cols-sm-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	} 
-.row-cols-md-2{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.row .col .card{
-	margin: 0;
-	width: 100%;
-	height: auto;
-}
-
-.row .col .card .image{
-	width: 100%;
-	height: auto;
-}
-}
- 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width:1200px) { 
- .container-fluid{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 100px;
-	margin-right: 0;
-	padding: 2px;
-	align-content: center;
-}
-
- .container-fluid .navbar .navbar-brand{
-	font-size: 26px;
-}
-}
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    .container-fluid{
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-}
-
